@@ -1,3 +1,4 @@
+// Form validation
 function validate() {  
 	var result = "";	
 	result += validateName(); 	

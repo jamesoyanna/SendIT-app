@@ -107,7 +107,8 @@ background: #35424a;
 /* How it works*/
 #label h1{
 text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;    
 }
 
 /* boxes*/
@@ -283,7 +284,11 @@ form {
 }
 
 #img{
-    align-content: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 10%;
+border-radius: 50%;
 }
 
 
@@ -299,3 +304,11 @@ background: #292c2f;
 width: 100%;  
 }  
 
+
+/* account creation section */
+.button,h3{
+color: blue;
+}
+#top-header h3{
+text-align: center;
+}
